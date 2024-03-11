@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Encreptador</title>
+</head>
+<body>
+    <header class="bienvenida">
+        <h1>Bienvenido a mi Encriptador</h1>
+        <h2>By Danitza Anhel Ramos Chávez</h2>
+    </header>
+   
+    <div class="container">
+        <div class="container__contenido">
+            <div class="container__informaciones">
+                <div class="container__texto">
+                    <h1></h1>
+                    <p class="texto__parrafo" id="textoParrafo"></p>
+                </div>
+                <input type="text" id="textoUsuario" min="1" max="1000" class="container__input" placeholder="Ingresa Texto">
+                <div class="chute container__botones">
+                    <button onclick="encriptarTexto()" class="container__boton">Encriptar</button>
+                    <button onclick="desencriptarTexto()" class="container__boton">Desencriptar</button>
+                    <button onclick="copiarTexto()" class="container__boton">Copiar Texto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
